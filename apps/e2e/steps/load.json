@@ -1,0 +1,7 @@
+[
+  { "goto": "/" },
+  { "wait": 800 },
+  { "press": "Tab" },
+  { "scroll": "#pedir" },
+  { "wait": 600 }
+]

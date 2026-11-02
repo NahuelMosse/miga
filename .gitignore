@@ -1,0 +1,9 @@
+.claude/.kit-incoming/
+
+specs/*/ref/
+specs/*/ref-*/
+specs/*/rondas/
+.validation/
+node_modules/
+test-results/
+playwright-report/

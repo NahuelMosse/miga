@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Miga · Panadería de masa madre en Villa Crespo</title>
+  <meta name="description" content="Pan de masa madre con 48 horas de fermentación en Villa Crespo. Mirá la lista de hoy con precios, pedí por WhatsApp y retirá en Thames 1050.">
+  <meta name="theme-color" content="#3d0012">
+  <link rel="preload" as="image" href="assets/sourdough-loaf.jpg" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.6 18.6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 10.5h6M9 13.5h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.1-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.9 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5l5.5 5.5-5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <header class="topbar" data-topbar>
+    <a class="wordmark" href="#inicio" aria-label="Miga, volver al inicio">Miga</a>
+    <a class="topbar__order" href="https://wa.me/5491100000000?text=Hola%20Miga!%20Quiero%20pedir%20para%20retirar%3A%20" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" data-section>
+      <div class="hero__stage">
+        <img class="hero__photo" src="assets/sourdough-loaf.jpg" width="1400" height="1050" alt="Hogaza de masa madre recién horneada, con la corteza oscura y abierta en el corte" fetchpriority="high">
+        <div class="hero__card">
+          <h1 class="hero__title">
+            <span class="line"><span>Pan de masa madre</span></span>
+            <span class="line"><span>de 48 horas</span></span>
+          </h1>
+          <div class="hero__body">
+            <p class="hero__lead">Panadería de masa madre en Villa Crespo. Pedí por WhatsApp y retirá en el local.</p>
+            <span class="sr-only" id="facts-label">Datos del local</span>
+            <ul class="hero__facts" aria-labelledby="facts-label">
+              <li>Thames 1050, CABA</li>
+              <li>Mar a sáb 8 a 20</li>
+              <li>Dom 8 a 14 · lun cerrado</li>
+            </ul>
+          </div>
+          <div class="hero__actions">
+            <a class="btn btn--accent" href="https://wa.me/5491100000000?text=Hola%20Miga!%20Quiero%20pedir%20para%20retirar%3A%20" target="_blank" rel="noopener" data-hero-cta>
+              <svg class="btn__icon" aria-hidden="true"><use href="#i-chat"/></svg>
+              Pedir por WhatsApp
+            </a>
+            <a class="link-arrow" href="#lista">Ver la lista de hoy <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="list" id="lista" data-section aria-labelledby="lista-title">
+      <div class="wrap list__grid">
+        <div class="list__intro reveal">
+          <h2 class="h2" id="lista-title">Hoy en el mostrador</h2>
+          <p class="lead">Horneamos todos los días y lo que se termina, se termina. Estos son los precios de hoy.</p>
+          <figure class="plate plate--crumb">
+            <img src="assets/sourdough-crumb.jpg" width="1200" height="1200" decoding="async" alt="Miga abierta y alveolada de una hogaza cortada al medio">
+          </figure>
+        </div>
+
+        <div class="list__ticket-col">
+          <article class="ticket reveal" aria-label="Lista del día">
+            <header class="ticket__head">
+              <span>Miga</span>
+              <time datetime="2026-11-07">Sábado 7 de noviembre</time>
+            </header>
+            <p class="ticket__stamp">Masa del jueves 5, horno del sábado 7: 48 h</p>
+
+            <h3 class="ticket__group">Panes</h3>
+            <ul class="ticket__rows">
+              <li class="row"><span class="row__name">Hogaza de masa madre<small>1 kg, corteza oscura</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$5.200</span></li>
+              <li class="row"><span class="row__name">Hogaza integral<small>1 kg, harina integral de trigo</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$5.600</span></li>
+              <li class="row"><span class="row__name">Pan de centeno y semillas<small>800 g, girasol, lino y sésamo</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$6.100</span></li>
+              <li class="row"><span class="row__name">Pan de campo<small>750 g, miga cerrada para tostar</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$4.800</span></li>
+              <li class="row"><span class="row__name">Baguette de masa madre<small>300 g, la sacamos a las 11</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$2.800</span></li>
+              <li class="row"><span class="row__name">Focaccia de romero<small>porción, aceite de oliva y sal gruesa</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$3.400</span></li>
+            </ul>
+
+            <h3 class="ticket__group">Facturas</h3>
+            <ul class="ticket__rows">
+              <li class="row"><span class="row__name">Medialuna de manteca<small>la unidad</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$900</span></li>
+              <li class="row"><span class="row__name">Vigilante de membrillo<small>la unidad</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$1.100</span></li>
+              <li class="row"><span class="row__name">Cañoncito de dulce de leche<small>la unidad</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$1.300</span></li>
+              <li class="row"><span class="row__name">Palmerita glaseada<small>la unidad</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$1.200</span></li>
+              <li class="row"><span class="row__name">Bola de fraile con crema<small>la unidad</small></span><span class="row__dots" aria-hidden="true"></span><span class="row__price">$1.400</span></li>
+            </ul>
+
+            <a class="btn btn--ink btn--block ticket__cta" href="https://wa.me/5491100000000?text=Hola%20Miga!%20Quiero%20pedir%20para%20retirar%3A%20" target="_blank" rel="noopener">
+              <svg class="btn__icon" aria-hidden="true"><use href="#i-chat"/></svg>
+              Pedí de esta lista por WhatsApp
+            </a>
+          </article>
+
+          <div class="plates reveal">
+            <figure class="plate"><img src="assets/facturas-quince-cream-coconut.jpg" width="1400" height="1050" loading="lazy" alt="Facturas con membrillo, crema pastelera y coco sobre una bandeja"></figure>
+            <figure class="plate"><img src="assets/facturas-assorted-rolls.jpg" width="1400" height="1050" loading="lazy" alt="Facturas surtidas, enrolladas y glaseadas, recién salidas del horno"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="pedir" data-section aria-labelledby="pedir-title">
+      <div class="wrap order__grid">
+        <div class="order__intro reveal">
+          <h2 class="h2" id="pedir-title">Cómo pedir</h2>
+          <p class="lead">Nos escribís, te lo separamos y pasás a buscarlo. Se retira en el local, sin envío.</p>
+          <a class="btn btn--accent order__cta" href="https://wa.me/5491100000000?text=Hola%20Miga!%20Quiero%20pedir%20para%20retirar%3A%20" target="_blank" rel="noopener">
+            <svg class="btn__icon" aria-hidden="true"><use href="#i-chat"/></svg>
+            Pedir por WhatsApp
+          </a>
+          <figure class="plate plate--hands">
+            <img src="assets/hands-kneading-dough.jpg" width="1400" height="935" decoding="async" alt="Manos amasando sobre la mesada enharinada">
+          </figure>
+        </div>
+
+        <span class="sr-only" id="steps-label">Pasos para pedir</span>
+        <ol class="slip reveal" aria-labelledby="steps-label">
+          <li class="slip__step">
+            <p class="slip__head"><span>Elegí</span><span class="slip__dots" aria-hidden="true"></span><span class="slip__when">primero</span></p>
+            <p class="slip__text">Lo que quieras de la lista de hoy.</p>
+          </li>
+          <li class="slip__step">
+            <p class="slip__head"><span>Mandá el WhatsApp</span><span class="slip__dots" aria-hidden="true"></span><span class="slip__when">después</span></p>
+            <p class="slip__text">Con tu nombre, lo que llevás y a qué hora pasás. Te confirmamos al toque.</p>
+          </li>
+          <li class="slip__step">
+            <p class="slip__head"><span>Retirá y pagá</span><span class="slip__dots" aria-hidden="true"></span><span class="slip__when">al final</span></p>
+            <p class="slip__text">En el local, en Thames 1050. Se paga al retirar.</p>
+          </li>
+          <li class="slip__foot">Retiro en el local, sin envío</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="hours" id="horarios" data-section aria-labelledby="horarios-title">
+      <div class="wrap hours__grid">
+        <div class="hours__intro reveal">
+          <h2 class="h2" id="horarios-title">Horarios</h2>
+          <p class="chip"><span class="chip__dot" aria-hidden="true"></span>Hoy sábado abrimos de 8 a 20</p>
+        </div>
+        <dl class="hours__table reveal">
+          <div class="hours__row is-today"><dt>Martes a sábado</dt><dd>8 a 20</dd></div>
+          <div class="hours__row"><dt>Domingo</dt><dd>8 a 14</dd></div>
+          <div class="hours__row"><dt>Lunes</dt><dd>Cerrado</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="visit" id="donde" data-section aria-labelledby="donde-title">
+      <figure class="visit__photo">
+        <img src="assets/bakery-interior-counter.jpg" width="1400" height="1050" loading="lazy" alt="Mostrador de una panadería con panes en los estantes">
+      </figure>
+      <div class="visit__card reveal">
+        <h2 class="visit__street" id="donde-title">Thames 1050</h2>
+        <p class="visit__area">Dónde queda: Villa Crespo, Buenos Aires (CABA)</p>
+        <p class="visit__note">Retirás acá. No hacemos envíos.</p>
+        <a class="btn btn--ink btn--block" href="https://www.google.com/maps/search/?api=1&amp;query=Thames+1050+Villa+Crespo+Buenos+Aires" target="_blank" rel="noopener">
+          <svg class="btn__icon" aria-hidden="true"><use href="#i-pin"/></svg>
+          Cómo llegar
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="back" id="contacto">
+    <div class="back__panel">
+      <div class="back__sign">
+        <h2 class="back__bye">Hasta mañana, vecino.</h2>
+        <p>Si te falta algo del día, escribinos y te lo guardamos.</p>
+      </div>
+      <ul class="back__links">
+        <li><a href="https://wa.me/5491100000000?text=Hola%20Miga!%20Quiero%20pedir%20para%20retirar%3A%20" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp · 11 0000-0000</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Thames+1050+Villa+Crespo+Buenos+Aires" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Thames 1050, Villa Crespo</a></li>
+        <li><a href="#horarios"><svg aria-hidden="true"><use href="#i-arrow"/></svg>Mar a sáb 8 a 20 · dom 8 a 14</a></li>
+      </ul>
+    </div>
+    <div class="back__fine">
+      <p>Miga · Panadería de masa madre · Thames 1050, Villa Crespo, CABA</p>
+      <p>Fotos: Agelaia, Angel Ganev, Shixart1985, Horacio Cambeiro, Kgbo · Wikimedia Commons (CC BY / CC BY-SA). No son del local.</p>
+    </div>
+  </footer>
+
+  <aside class="orderbar" data-orderbar aria-label="Pedido rápido">
+    <a class="btn btn--accent btn--block" href="https://wa.me/5491100000000?text=Hola%20Miga!%20Quiero%20pedir%20para%20retirar%3A%20" target="_blank" rel="noopener">
+      <svg class="btn__icon" aria-hidden="true"><use href="#i-chat"/></svg>
+      Pedir por WhatsApp
+    </a>
+  </aside>
+</body>
+</html>
