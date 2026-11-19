@@ -7,7 +7,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.65.1",
-    "axe-core": "^4.14.0",
+    "axe-core": "^4.14.1",
     "eslint": "^10.15.0"
   }
 }
